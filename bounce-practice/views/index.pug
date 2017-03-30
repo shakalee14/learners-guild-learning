@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Bounce Practice
+    meta(name='description', content='The HTML5 Herald')
+    meta(name='author', content='SitePoint')
+    link(href='https://fonts.googleapis.com/css?family=Arvo', rel='stylesheet')
+    link(rel='stylesheet', type='text/css', href='./stylesheets/practice.css')
+  body
+    #page-wrap
+      h1#top Smooth Page Scrolling
+      ul
+        li
+          a(href='#two') Scroll to Section Two
+        li
+          a(href='#three') Scroll to Section Three
+      h2#one Section One
+        include sectionOne.pug
+      h2#two Section Two
+        include sectionTwo.pug
+      p
+        | DRUG ADDICTION COMES FROM A PHYSICAL DEPENDENCY, RIGHT? NOPE. READ MORE
+        a(href='#top') Top
+      h2#three Section Three
+        include sectionThree.pug
+      p
+        a(href='#top') Top
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+    script(src='./javascripts/practice.js')

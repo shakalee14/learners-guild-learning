@@ -1,0 +1,35 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "practice connecting node to jasmine",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakalee14/practicejasminenode.git"
+  },
+  "keywords": [
+    "jasmine",
+    "node"
+  ],
+  "author": "shaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shakalee14/practicejasminenode/issues"
+  },
+  "homepage": "https://github.com/shakalee14/practicejasminenode#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.75.0",
+    "star": "^0.3.9",
+    "start": "^4.0.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
+
+
